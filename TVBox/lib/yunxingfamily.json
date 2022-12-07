@@ -15,7 +15,7 @@
 
 
 {
-"spider":"clan://TVBox/jar/xzy1029.jar",
+"spider":"https://tv.ambitiousjun.cn/TVBox/jar/xzy1029.jar",
 
 
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cDovL21hb3lpbmdzaGkuY2MvdHZib3gvemhpYm8vMS50eHQ="]}]}],
@@ -23,7 +23,7 @@
   
 "sites":[
 {"key":"csp_77","name":"👒酷云七七〔SP〕新Q群：783468715","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"dr_豆瓣","name":"🔍豆瓣荐片(drpy)","type":3,"api":"clan://TVBox/lib/drpy.min.js","searchable":2,"quickSearch":0,"filterable":0,"ext":"clan://TVBox/js/drpy.js"},
+{"key":"dr_豆瓣","name":"🔍豆瓣荐片(drpy)","type":3,"api":"https://tv.ambitiousjun.cn/TVBox/lib/drpy.min.js","searchable":2,"quickSearch":0,"filterable":0,"ext":"https://tv.ambitiousjun.cn/TVBox/js/drpy.js"},
 {"key":"T4_douban","name":"🔍影视推荐〔T4〕","type":4,"api":"http://top.fuqizhishi.com/vod","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_Kuaikan","name":"👀快看〔SP〕","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_CZSPP","name":"✴️厂长影视","type":3,"api":"csp_Czsapp","searchable":1,"playerType":2,"quickSearch":1,"filterable":0,"jar":"https://share.nite07.com/api/v3/file/source/33671/%E5%B7%A7%E8%AE%A1%E5%8E%BB%E5%BC%B9%E7%AA%97.jar?sign=Nig8zZnG1UUL5J6DCTeWY-GvJUTHpA1yAOOwl5n1aws%3D%3A0"},
@@ -31,7 +31,7 @@
 {"key":"csp_Ysgc","name":"🎥影视工厂〔SP〕","type":3,"api":"csp_Ysgc","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_Dy1010","name":"🔟双十〔SP〕","type":3,"api":"csp_Dy1010","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_fant","name":"🍙饭团〔SP〕","api":"csp_Fantuan","type":3,"filterable":1,"quickSearch":1,"searchable":1},
-{"key": "csp_xpNmys","name": "🌾农民〔SP〕","type": 3,"api": "csp_Nmys","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "clan://TVBox/MaooXP/csp_Nmys.json"},
+{"key": "csp_xpNmys","name": "🌾农民〔SP〕","type": 3,"api": "csp_Nmys","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://tv.ambitiousjun.cn/TVBox/MaooXP/csp_Nmys.json"},
 {"key":"Pang","name":"🐯胖虎〔SP〕","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"c41fdb671b20925c76fa9b6ff8bad027","jar":"https://share.nite07.com/api/v3/file/source/33598/%E5%94%90%E4%B8%89.jar?sign=pC_fxfbNcDiwsleLvkla2jwcHnsvOLnMkZZiNfD9iNE%3D%3A0"},
 {"key":"csp_Bttoo","name":"✌两个BT〔SP〕","type":3,"api":"csp_Bttoo","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_SP360","name":"💘360〔SP〕","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
@@ -53,24 +53,24 @@
 {"key":"yule","name":"------以下为娱乐资源------","type":3,"api":"360","searchable":1,"quickSearch":1,"filterable":1},
 
 {"key":"csp_Yj1211","name":"📱游戏直播〔SP〕","type":3,"api":"csp_Yj1211","searchable": 1,"quickSearch":1,"filterable":1},
-{"key":"csp_biubiu_tingshuxb","name":"🎧听书网","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"clan://TVBox/Bilibili/听书网.json"},
-{"key":"csp_biubiu_斗鱼","name":"🐬斗鱼〔直播〕","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"clan://TVBox/Bilibili/douyu.json"},
+{"key":"csp_biubiu_tingshuxb","name":"🎧听书网","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://tv.ambitiousjun.cn/TVBox/Bilibili/听书网.json"},
+{"key":"csp_biubiu_斗鱼","name":"🐬斗鱼〔直播〕","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://tv.ambitiousjun.cn/TVBox/Bilibili/douyu.json"},
 //{"key":"YQK_spider","name":"一起看TV","api":"csp_YQKAPP","type":3,"filterable":1,"playerType":2,"quickSearch":1,"searchable":1,"ext":"https://api-tx.shumaxc.xyz","jar":"http://rl1eetffv.bkt.clouddn.com/qj1121.jar;md5;536fa865c4502be4907a2c6759373de8"},
-{"key":"JRS赛事直播","name":"🏀JRS赛事〔注意直播时间〕","type":3,"api":"XPath3","searchable":0,"quickSearch":0,"filterable":0,"ext":"clan://TVBox/Bilibili/dj看球.json","jar":"http://maoyingshi.cc/tvbox/云星日记/jar/1116.jpg;md5;ab44104cfabc8c6da7b54124a0c36a5a"},
-{"key":"88看球","name":"⚽88看球〔注意直播时间〕","type":3,"api":"XPath3","searchable":0,"quickSearch":0,"filterable":0,"ext":"clan://TVBox/Bilibili/88kq.json"},
-{"key": "dr_88看球","name": "⚽️88看球(drpy)〔注意直播时间〕","type": 3,"api": "clan://TVBox/lib/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "clan://TVBox/js/88看球.js"},
-{"key": "csp_XYQBiu_17kan","name": "👀17kan〔XYQ〕","type": 3,"api": "csp_XYQBiu","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "clan://TVBox/Bilibili/17kan.json"},
-{"key":"csp_xBPQ_zf","name":"🏀抓饭体育","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "clan://TVBox/Bilibili/抓饭体育.json"},
-{"key":"csp_XPath_鹅直播","name":"⚽️体育直播〔SP〕","type":3,"api":"csp_XPath3","searchable":0,"quickSearch":0,"filterable":0,"ext":"clan://TVBox/Bilibili/qezb.json"},
+{"key":"JRS赛事直播","name":"🏀JRS赛事〔注意直播时间〕","type":3,"api":"XPath3","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://tv.ambitiousjun.cn/TVBox/Bilibili/dj看球.json","jar":"http://maoyingshi.cc/tvbox/云星日记/jar/1116.jpg;md5;ab44104cfabc8c6da7b54124a0c36a5a"},
+{"key":"88看球","name":"⚽88看球〔注意直播时间〕","type":3,"api":"XPath3","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://tv.ambitiousjun.cn/TVBox/Bilibili/88kq.json"},
+{"key": "dr_88看球","name": "⚽️88看球(drpy)〔注意直播时间〕","type": 3,"api": "https://tv.ambitiousjun.cn/TVBox/lib/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "https://tv.ambitiousjun.cn/TVBox/js/88看球.js"},
+{"key": "csp_XYQBiu_17kan","name": "👀17kan〔XYQ〕","type": 3,"api": "csp_XYQBiu","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "https://tv.ambitiousjun.cn/TVBox/Bilibili/17kan.json"},
+{"key":"csp_xBPQ_zf","name":"🏀抓饭体育","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "https://tv.ambitiousjun.cn/TVBox/Bilibili/抓饭体育.json"},
+{"key":"csp_XPath_鹅直播","name":"⚽️体育直播〔SP〕","type":3,"api":"csp_XPath3","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://tv.ambitiousjun.cn/TVBox/Bilibili/qezb.json"},
 
 {"key":"xb","name":"------以下为XB资源------","type":3,"api":"360","searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"csp_biubiu_OmoFun动漫","name":"👑OmoFun动漫〔XB〕","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"clan://TVBox/MaooXB2/OMOFUN动漫0717.json"},
-{"key":"csp_biubiu_真不卡影院(不支持搜索)","name":"💢真 不 卡〔XB〕","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"clan://TVBox/MaooXB2/真不卡0717.json"},
-{"key":"csp_xp_789kp","name":"💢789 看片〔XB〕","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"clan://TVBox/MaooXP/789kp.json"},
-{"key":"csp_xp_wnvod","name": "💢万能影视〔XB〕","type": 3,"api":"csp_XPathFilter","searchable": 1,"quickSearch": 1,"filterable":0,"ext":"clan://TVBox/MaooXP/wnvod.json"},
-{"key":"csp_xp_tjyy","name":"💢奇优影院〔XB〕","type":3,"api":"csp_XPathMac","searchable":1,"quickSearch":1,"filterable":0,"ext":"clan://TVBox/MaooXP/huigutongying.json"},
-{"key":"csp_biubiu_voflix","name":"💢vo fl ix〔XB〕","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"clan://TVBox/MaooXB2/voflix.json"},
+{"key":"csp_biubiu_OmoFun动漫","name":"👑OmoFun动漫〔XB〕","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://tv.ambitiousjun.cn/TVBox/MaooXB2/OMOFUN动漫0717.json"},
+{"key":"csp_biubiu_真不卡影院(不支持搜索)","name":"💢真 不 卡〔XB〕","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://tv.ambitiousjun.cn/TVBox/MaooXB2/真不卡0717.json"},
+{"key":"csp_xp_789kp","name":"💢789 看片〔XB〕","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://tv.ambitiousjun.cn/TVBox/MaooXP/789kp.json"},
+{"key":"csp_xp_wnvod","name": "💢万能影视〔XB〕","type": 3,"api":"csp_XPathFilter","searchable": 1,"quickSearch": 1,"filterable":0,"ext":"https://tv.ambitiousjun.cn/TVBox/MaooXP/wnvod.json"},
+{"key":"csp_xp_tjyy","name":"💢奇优影院〔XB〕","type":3,"api":"csp_XPathMac","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://tv.ambitiousjun.cn/TVBox/MaooXP/huigutongying.json"},
+{"key":"csp_biubiu_voflix","name":"💢vo fl ix〔XB〕","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://tv.ambitiousjun.cn/TVBox/MaooXB2/voflix.json"},
 
 {"key":"说明","name":"公众号：云星日记","type":3,"api":"360","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"说明2","name":"提供免费维护","type":3,"api":"360","searchable":1,"quickSearch":1,"filterable":1}
