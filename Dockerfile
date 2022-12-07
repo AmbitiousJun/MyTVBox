@@ -1,12 +1,10 @@
-FROM nginx:1.21-alpine
+FROM tomcat:9.0
 
-WORKDIR /usr/share/nginx/html
+WORKDIR /usr/local/tomcat
 USER root
 
-COPY ./nginx.conf /etc/nginx/conf.d/default.conf
+COPY ./TVBox  /usr/local/tomcat/TVBox
 
-COPY ./TVBox  /usr/share/nginx/html/TVBox
+EXPOSE 8080
 
-EXPOSE 9000
-
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["catalina.sh", "run"]
