@@ -1,0 +1,31 @@
+请 按文件目录路径 存放文件，以免个别功能不正常。!!!不要改放到别的地方去。
+请 按步骤操作图操作 并填写正确的配置接口
+
+alitoken.txt文件是推送阿里云盘链接需要的token，如果失效后请打开编辑替换成自己账号的token。
+
+配置接口
+clan://localhost/XYQTVBox/XYQTVBox.json
+
+除APP原生支持的api外，本jar所支持的api
+
+//alist网盘支持
+csp_Alist
+
+//本地文件播放
+csp_LocalFile
+
+//推送核心api
+csp_PushAgent
+
+//XPath系列
+csp_XPath
+csp_XPathFilter
+csp_XPathMac
+csp_XPathMacFilter
+
+//XYQ系列
+csp_XYQBiu
+csp_XYQHiker
+
+不支持这些以外的api，如xbiu，xbiubiu，xbpq等
+如需使用请外挂加载。
